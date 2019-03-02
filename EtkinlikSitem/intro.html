@@ -1,0 +1,1000 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="Assets/css/style.css" rel="stylesheet" />
+    <link href="Assets/css/Animate.css" rel="stylesheet" />
+    <script src="Assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="Assets/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="Assets/js/ayse.js"></script>
+    <script src="Assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title></title>
+</head>
+<body>
+
+    <div class="container-fluid pr-0 pl-0">
+
+        <!--Navbar Begin-->
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar x-navbarc alt-color showing pl-0 pr-0 pt-0 ">
+
+                <div class="container-fluid ">
+                    <a class="navbar-brand mt-2 ml-5 mr-0" href="#">
+                        <strong><img class="mr-2" src="Assets/img/robot_PNG43.png" height="50" width="40" />KBİK</strong>
+                    </a>
+                    <button class="navbar-toggler collapsed ml-5 " type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse ml-5 mt-2" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav mr-auto  ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="intro.html">Anasayfa <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#etkinliklerimiz">Etkinliklerimiz</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#hakkımızda">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#egitmenler">Eğitmenlerimiz</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Galeri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">İletişim</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </nav>
+
+
+            <!-- Navbar -->
+
+            <div class="view  jarallax" data-jarallax='{"speed": 0.2}' style="background-image:url(Assets/img/rawpixel-782055-unsplash.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center; height:750px!important;">
+                <div class="mask rgba-purple-slight d-flex justify-content-center align-items-center">
+                 
+                    <div class="container">
+                       
+                        <div class="row wow fadeIn">
+                           
+                            <div class="col-md-12 text-center" style="margin-top:200px !important">
+                                <h1 class="display-4 font-weight-bold mb-0 pt-md-5 pt-5 wow animated fadeInLeftBig slower">Küçük Bilim İnsanları Kulubü</h1>
+                                <h5 class="pt-md-5 pt-sm-2 pt-5 pb-md-3 pb-sm-1 pb-3 animated wow fadeInRightBig slower mb-5" data-wow-delay="0.2s">
+                                    "Çocukları sağlıklı ve bilgili yetiştirilmeyen uluslar, temeli çürük binalar gibi çabuk yıkılırlar." (Atatürk)
+                                </h5>
+
+                                <button class="btn btn-girisYap mt-5 animated heartBeat fast" data-toggle="modal" data-target="#modalLRForm"><span class="fas fa-sign-in-alt mr-2"></span>Giriş Yap</button>
+                            </div>
+                            
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <!-- Content -->
+                </div>
+                <!-- Mask & flexbox options-->
+            </div>
+            <!-- Full Page Intro -->
+        </header>
+        <!--Navbar End-->
+        <!--Giriş Yap Begin-->
+        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog cascading-modal" role="document">
+                <!--Content-->
+                <div class="modal-content">
+
+                    <!--Modal cascading tabs-->
+                    <div class="modal-c-tabs">
+
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs md-tabs pl-2" role="tablist">
+                            <li class="nav-item text-center">
+                                <a class="nav-link mr-2" id="nav-linkGiris" data-toggle="tab" href="#panel7" role="tab">
+                                    <i class="fas fa-user"></i>
+                                    Giriş Yap
+                                </a>
+                            </li>
+                            <li class="nav-item text-center">
+                                <a class="nav-link" id="nav-linkGiris" data-toggle="tab" href="#panel8" role="tab">
+                                    <i class="fas fa-user-plus mr-1"></i>
+                                    Üye Ol
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- Tab panels -->
+                        <div class="tab-content">
+                            <!--Panel 7-->
+                            <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                                <!--Body-->
+                                <div class="modal-body ">
+
+                                    <form>
+                                        <div class="form-group ">
+
+                                            <label style="float:left !important" for="formGroupExampleInput" class="bmd-label-floating">E-posta</label>
+                                            <input type="text" class="form-control" placeholder="abc@abc.com" id="formGroupExampleInput">
+                                        </div>
+                                        <div class="form-group bmd-form-group">
+
+                                            <label style="float:left !important" for="formGroupExampleInput2" class="bmd-label-floating">Parola</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2">
+
+                                        </div>
+
+                                        <div class="text-center mt-2">
+                                            <button class="btn btn-info">Giriş Yap<i class="fas fa-sign-in ml-1"></i></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--Footer-->
+                                <div class="modal-footer">
+                                    <div class="options text-center text-md-right mt-1">
+                                        <p>Üye değilim <a href="#" class="blue-text">Üye 0l</a></p>
+                                        <a href="#" class="blue-text">Şifremi unuttum?</a>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Kapat</button>
+                                </div>
+
+                            </div>
+                            <!--/.Panel 7-->
+                            <!--Panel 8-->
+                            <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+                                <!--Body-->
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group ">
+
+                                            <label style="float:left !important" for="formGroupExampleInput" class="bmd-label-floating">E-posta</label>
+                                            <input type="text" class="form-control" placeholder="abc@abc.com" id="formGroupExampleInput">
+                                        </div>
+                                        <div class="form-group bmd-form-group">
+
+                                            <label style="float:left !important" for="formGroupExampleInput2" class="bmd-label-floating">Parola</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2">
+
+                                        </div>
+                                        <div class="form-group bmd-form-group">
+
+                                            <label style="float:left !important" for="formGroupExampleInput2" class="bmd-label-floating">Tekrar Parola</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput2">
+
+                                        </div>
+
+                                        <div class="text-center form-sm mt-2">
+                                            <button class="btn btn-info">Üye Ol<i class="fas fa-sign-in ml-1"></i></button>
+                                        </div>
+                                    </form>
+
+
+
+                                </div>
+                                <!--Footer-->
+                                <div class="modal-footer">
+                                    <div class="options text-right">
+                                        <p class="pt-1">Zaten hesabınız var mı?<a href="#" class="blue-text">Giriş Yap</a></p>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Kapat</button>
+                                </div>
+                            </div>
+                            <!--/.Panel 8-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--/.Content-->
+            </div>
+        </div>
+
+        <!--Giriş Yap End-->
+        <!--scroll begin-->
+        <div id="go-up">
+            <div class="fss-dotted-scrollspy">
+                <div id="go-up-btn">
+                    <i class="fas fa-arrow-up fa-2x mt-1"></i>
+                </div>
+
+            </div>
+        </div>
+        <!--scroll end-->
+        <!-- Etkinlik Bölümü begin-->
+        <div class="container-fluid pt-5" id="etkinliklerimiz">
+            <div class="container mt-5">
+
+                <section class="text-center my-5 ">
+
+                    <!-- Başlik -->
+                    <div class="row mt-5 mb-2">
+                        <div class="col-md-12 mb-3">
+                            <div class="divider-new">
+                                <h3 class="text-center text-uppercase  mr-3 ml-3 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">ETKİNLİKLERİMİZ</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        <!--<!-- Activity-1 -->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2" id="activity-card">
+                                <img class="img-fluid" id="activity-img" src="Assets/img/Gezegenler.jpg" alt="Sample image">
+
+                                <h5 class="mt-5 mb-4">Gezegenlerimizi Tanıyoruz</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-1" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Activity-2 -->
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2 mb-4 " id="activity-card">
+                                <img class="img-fluid mr-0 ml-0" src="Assets/img/arduino.jpg" alt="Sample image" id="activity-img">
+
+                                <h5 class="mt-5 mb-4">Robotumun Kalbi Arduino</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-2" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>
+                            </div>
+
+                        </div>
+
+                        <!-- Activity-3 -->
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2 mb-4 " id="activity-card">
+                                <img class="img-fluid mr-0 ml-0" src="Assets/img/scratch.jpg" alt="Sample image" id="activity-img">
+
+                                <h5 class="mt-5 mb-4">Scratch İle Kodlama Çok Kolay</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-3" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+
+                        <!-- Activity-4 -->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2" id="activity-card">
+                                <img class="img-fluid" id="activity-img" src="Assets/img/lego-resim.jpg" alt="Sample image">
+
+                                <h5 class="mt-5 mb-4">Minik Scrum Master</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-4" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>
+                            </div>
+
+                        </div>
+
+                        <!-- Activity-5 -->
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2 mb-4 " id="activity-card">
+                                <img class="img-fluid mr-0 ml-0" src="Assets/img/lehim-resim.jpg" alt="Sample image" id="activity-img">
+
+                                <h5 class="mt-5 mb-4">Lehim Canavarları</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-5" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>http://localhost:60487/Assets/img/Gezegenler.jpg
+                            </div>
+
+                        </div>
+
+                        <!-- Activity-6 -->
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+
+                            <div class="view overlay rounded z-depth-2 mb-4 " id="activity-card">
+                                <img class="img-fluid mr-0 ml-0" src="Assets/img/Bilim_Merkezi_Gezisi.jpg" alt="Sample image" id="activity-img">
+
+                                <h5 class="mt-5 mb-4">İTÜ Bilim Merkezine Gidiyoruz</h5>
+                                <a href="#" data-toggle="modal" data-target="#activity-6" id="incele"><h6 id="incele-yazi">İncele <i class="fas fa-angle-double-right"></i></h6></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+        <!-- Etkinlik Bölümü end-->
+        <!--Activity Modal Begin-->
+        <!-- Modal: Activity 1 begin-->
+        <div class="modal fade" id="activity-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            Gezegenlerimizi Tanıyoruz
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/solar-system.jpg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;08.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;8-14</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Etkinliğe ilk önce "Gezegenleri Tanıyalım" saati ile başlanacak. Daha sonra öğrencilere verilen malzemelerle bir güneş sistemi modeli yapmalrı istenecek. Modeli en doğru ve güzel yapan öğrencilerimiz ödüllendirilecektir.
+                        </p>
+
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 1 end-->
+        <!-- Modal: Activity 2 begin-->
+        <div class="modal fade" id="activity-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            Robotumun Kalbi Arduino
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/arduino-resim.jpeg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;09.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;10-14</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Etkinlik Arduino kartını tanıtma ve Arduine IDE ile nasıl kod yazarım saati ile başlayacaktır. Daha sonra öğrencilere verilen malzemeler ile Arduino bağlantıları yapılması için belli bir zaman verilecek. Bağlantıları doğru yapan öğrencilerimiz Arduino IDE'de basit codlar yazılması istenecek. Doğru kodu yazan öğrencilerimiz kodu Arduino ya atıp çalışip çalışmadığını kontrol edecek. En kısa zamanda çalışır projeyi çıkaran öğrencimize Arduino Çocuk setimizi hediye ediceğiz.
+
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 2 end-->
+        <!-- Modal: Activity 3 begin-->
+        <div class="modal fade" id="activity-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            Scratch İle Kodlama Çok Kolay
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/scratch_modal.jpg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;15.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;10-12</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Etkinliğimiz kahvaltı saati ile başlayacaktır. Daha sonra Scratch programı nasıl kullanılır saati ile derse başlayacağız. Bu derseten sonra öğrencilerimizle aşağıda yazan etkinlikler yapıcağız :
+                            1. Birlikte yarattığınız oyunu oynayacağız.
+                            2. Maceracı hareketler yapacağız (sahne ve karakter ekleyerek.)
+                            3. Karakter yapıp hareket ettireceğiz.
+                            5. Programdaki ana ses dışında başka ses de ekleyebilirsiniz.
+
+                            Daha sonra yapığız oyun ile bir yarışma düzenlenicek. Bu oyucu ilk bitiren öğrencimiz 26.02.2019 tarihinde "İTÜ Bilim Merkezine Gidiyoruz" etkinliğimize ücretsiz katılma hakkına sahip olacaktır.
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 3 end-->
+        <!-- Modal: Activity 4 begin-->
+        <div class="modal fade" id="activity-4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            Minik Scrum Master
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/scrum-modal.jpg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;17.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;7-10</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Etkinlik için ünlü Scrum eğitmeni Aybüke Ballıca bizlerle olacaktır. Eğitmenimiz ilk 2 saat öğrencilerime "Scrum Nedir?", "Scrum Neden Bu Kadar Önemli" ve "Kanban Board Nasıl Yapılır?" konularını öğrencilerimize anlatacaktır. Daha sonra öğrenciler iki gruba ayrılacak. Her grubun bir Scrum Master ı seçilecektir. Öğrencilerimize verilen legolarla Scrum eğitmenimizin istediği kasabayı kurmasını isteyecegiz. Görevlerini doğru ve eksiksiz bitiren grubumuzun öğrencilerine "Legolarla Scrum Master Benim Paketi" hediye edilecektir.
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 4 end-->
+        <!-- Modal: Activity 5 begin-->
+        <div class="modal fade" id="activity-5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            Lehim Canavarları
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/lehimle.jpg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;22.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;12-14</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Etkinliğimizde eğitmenlerimizin belirlediği basit bir devre şemasının öğrencilerimize bakır plakalar üstüne çizilmesi istenicek. Daha sonra eğitmenlerimiz bu plakaların bakır kısımlarının eritileceği bir asit içine atılıcak. Daha sonra öğrenclerimize malzemeleri bu bu bakır yollara lehimlenmesi istenecektir. Devreyi en doğru ve ilk yapan öğrencimize "Küçük Eller Lehimliyor" eğitim paketimiz hediye edilecektr.
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 5 end-->
+        <!-- Modal: Activity 6 begin-->
+        <div class="modal fade" id="activity-6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h3>
+                            İTÜ Bilim Merkezine Gidiyoruz
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+
+
+                    <div class="modal-body">
+
+                        <div class="row">
+
+                            <div class="col-7 ">
+                                <img id="modal-resim" src="Assets/img/Bilim_Merkezi_Gezisi.jpg" width="250" height="160" />
+                            </div>
+                            <div class="col-5 mt-3">
+                                <table class="mt-1 mb-5">
+                                    <thead>
+
+                                        <tr>
+                                            <th>Saat:&emsp;09:30 - 15:30</th>
+                                        </tr>
+                                        <tr><th>Tarih:&emsp;26.02.2019</th></tr>
+                                        <tr>
+                                            <th>Yaş Sınırı:&emsp;12-14</th>
+
+                                        </tr>
+                                        <tr><th>Kontenjan:&emsp; 10</th></tr>
+                                        <tr><th>Fiyat:&emsp; 20 ₺</th></tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+
+
+                        <p class="mt-5 text-center">
+
+                            Dolu dolu bilim kokan bir etkinlik. Gezide öğrencilerimiz hem öğrenecek hemde onlar için hazırlanan etkinliklerde kendilerini gösterme şansı bulacaklar. Eğlenirken öğrenmeye hazır olun.
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-dismiss="modal" data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal: Activity 6 end-->
+        <!--Activity Modal End-->
+        <!--Kayıt Formu Begin-->
+        <div class="modal fade" id="kayitForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" style="overflow-y:auto !important;" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3>
+                            Kayıt Formu
+
+                        </h3>
+
+                        <a class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" class="white-text">&times;</span>
+                        </a>
+                    </div>
+
+                    <hr />
+                    <div class="modal-body">
+                        <div class="modal-body mt-0">
+                            <div class="container ">
+
+                                <div class="row">
+                                    <div class="col-lg-8 mx-auto">
+
+                                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                            <div class="control-group">
+                                                <div class="form-group ">
+                                                    <label>Adınız</label>
+                                                    <input class="form-control" id="name" type="text" placeholder="Ad" required="required" data-validation-required-message="Please enter your name.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <div class="form-group ">
+                                                    <label>Yaşınız</label>
+                                                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                        <option selected>7</option>
+                                                        <option value="1">8</option>
+                                                        <option value="2">9</option>
+                                                        <option value="3">10</option>
+                                                        <option value="4">11</option>
+                                                        <option value="5">12</option>
+                                                        <option value="6">13</option>
+                                                        <option value="7">14</option>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <div class="form-group ">
+                                                    <label>E-mail</label>
+                                                    <input class="form-control" id="email" type="email" placeholder="E-mail " required="required" data-validation-required-message="Please enter your email address.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+                                            <div class="control-group">
+                                                <div class="form-group">
+                                                    <label>Telefon Numarası</label>
+                                                    <input class="form-control" id="phone" type="tel" placeholder="545 156 12 13" required="required" data-validation-required-message="Please enter your phone number.">
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+
+                                            <div class="control-group">
+                                                <div class="form-group ">
+                                                    <label>Adres</label>
+                                                    <textarea class="form-control" id="message" rows="5" placeholder="Adres" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                                    <p class="help-block text-danger"></p>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <div id="success"></div>
+
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer ">
+
+                        <div class="text-center">
+
+                            <button type="button" class="btn btn-close" data-dismiss="modal">Kapat</button>
+                            <button data-toggle="modal" data-target="#kayitForm" class="btn btn-kayit">Kayıt Ol</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Kayıt Formu End-->
+        <!--Hakkımızda Bölümü begin-->
+
+        <div class="container-fluid pt-4 pb-3 gecis" id="hakkımızda">
+
+            <div class="container mt-5">
+                <!-- Başlik -->
+                <div class="row mb-1">
+                    <div class="col-md-12 mb-2">
+                        <div class="divider-new">
+                            <h3 class="text-center text-uppercase  mr-3 ml-3">HAKKIMIZDA</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center mb-5">
+
+                        <p>Kulübümüz Elektrik-Elektronik Mühendisi olan Ayşe ÖZER tarafından 2019 yılında kurulmuştur. Çocukları eğlendirirken gelişen teknolojiyle büyümesi ile kulüp, 7-14 yaş arası çocuklar için ücretsiz etkinlikler düzenlemektedir. Mesleklerinde ustalaşmış eğitmenlerimizle çocukların gelişimine yardımcı olmayı amaçlıyoruz.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Hakkımızda Bölümü end-->
+        <!-- eğitmen Bölümü begin-->
+        <div class="container-fluid pt-3" id="egitmenler">
+            <div class="container mt-5">
+                <section class="text-center my-5">
+
+                    <!-- Başlik -->
+                    <div class="row mt-5 mb-2">
+                        <div class="col-md-12 mb-3">
+                            <div class="divider-new">
+                                <h3 class="text-center text-uppercase  mr-3 ml-3 wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">EĞİTMENLERİMİZ</h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+
+                        <!-- Card -->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <div class="card testimonial-card">
+
+                                <!-- Background color -->
+                                <div class="card-up" id="egitmen1"></div>
+
+                                <!-- Avatar -->
+                                <div class="avatar mx-auto white">
+                                    <img id="egitmen-img" src="Assets/img/christopher-campbell-28567-unsplash.jpg" class="rounded-circle" alt="woman avatar" height="100" width="100">
+                                </div>
+
+                                <!-- Content -->
+                                <div class="card-body">
+                                    <!-- Name -->
+                                    <h4 class="card-title">Ayşe Özer</h4>
+                                    <h6>Elektrik Elektronik Mühendisi</h6>
+                                    <hr>
+                                    <!-- Quotation -->
+                                    <a id="social-icons" href="#"><span class="fab fa-twitter  m-3"></span></a>
+                                    <a id="social-icons" href="#"> <span class="fab fa-instagram  m-3"></span></a>
+                                    <a id="social-icons" href="#"><span class="fab fa-linkedin-in  m-3"></span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <!-- Card -->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <div class="card testimonial-card">
+
+                                <!-- Background color -->
+                                <div class="card-up" id="egitmen2"></div>
+
+                                <!-- Avatar -->
+                                <div class="avatar mx-auto white">
+                                    <img id="egitmen-img" src="Assets/img/mubariz-mehdizadeh-364026-unsplash.png" class="rounded-circle" alt="man avatar" height="100" width="100">
+                                </div>
+
+                                <!-- Content -->
+                                <div class="card-body">
+                                    <!-- Name -->
+                                    <h4 class="card-title">Berkay Hür</h4>
+                                    <h6>Full Stack Developer</h6>
+                                    <hr>
+                                    <!-- Quotation -->
+                                    <a id="social-icons" href="#"><span class="fab fa-twitter  m-3"></span></a>
+                                    <a id="social-icons" href="#"> <span class="fab fa-instagram  m-3"></span></a>
+                                    <a id="social-icons" href="#"><span class="fab fa-linkedin-in  m-3"></span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+                        <!-- Card -->
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+                            <div class="card testimonial-card">
+
+                                <!-- Background color -->
+                                <div class="card-up " id="egitmen3"></div>
+
+                                <!-- Avatar -->
+                                <div class="avatar mx-auto white">
+                                    <img id="egitmen-img" src="Assets/img/michael-dam-258165-unsplash.jpg" class="rounded-circle" alt="woman avatar" height="100" width="100">
+                                </div>
+
+                                <!-- Content -->
+                                <div class="card-body">
+                                    <!-- Name -->
+                                    <h4 class="card-title">Hatice Hocaoğlu</h4>
+                                    <h6>Üstün Zekalılar Öğretmeni</h6>
+                                    <hr>
+                                    <!-- Quotation -->
+                                    <a id="social-icons" href="#"><span class="fab fa-twitter  m-3"></span></a>
+                                    <a id="social-icons" href="#"> <span class="fab fa-instagram  m-3"></span></a>
+                                    <a id="social-icons" href="#"><span class="fab fa-linkedin-in  m-3"></span></a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Card -->
+
+                    </div>
+
+
+                </section>
+            </div>
+        </div>
+        <!-- eğitmen Bölümü end-->
+        <!--Footer begin-->
+
+        <div class="container-fluid  text-center" id="social">
+            <a id="social-icons" href="#"><span class="fab fa-twitter fa-2x m-3"></span></a>
+            <a id="social-icons" href="#"> <span class="fab fa-instagram fa-2x m-3"></span></a>
+            <a id="social-icons" href="#"> <span class="fab fa-facebook fa-2x m-3"></span></a>
+            <a id="social-icons" href="#"><span class="fab fa-linkedin-in fa-2x m-3"></span></a>
+        </div>
+        <div class="container-fluid" id="footer">
+
+            <div class="card-footer text-white text-center text-muted">
+                <small> &copy;2019 Ayşe Özer</small>
+            </div>
+
+        </div>
+
+        <!--Footer end-->
+
+    </div>
+
+    <script type="text/javascript">
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            }
+            else {
+                $('nav').removeClass('black');
+            }
+        });
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+
+                if ($(this).scrollTop() > 80) {
+
+                    $('#go-up-btn').fadeIn();
+
+                } else {
+
+                    $('#go-up-btn').fadeOut();
+
+                }
+            });
+
+            $('#go-up-btn').click(function () {
+
+                $("html, body").animate({
+
+                    scrollTop: 0
+
+                }, 600);
+
+                return false;
+
+            });
+
+        });
+
+    </script>
+
+
+</body>
+</html>
